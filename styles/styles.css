@@ -4,6 +4,23 @@
     
 }
 
+/*  Police */
+@font-face {
+    font-family: "ballpark";
+    src: url("../polices/ballpark.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "dayrom";
+    src: url("../polices/dayrom.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
 
 /* Header */
 header {
@@ -31,6 +48,7 @@ nav ul li a {
 
 .header h3 {
     margin-left: 90px;
+    font-family: "ballpark";
 }
 
 .header p {
@@ -109,6 +127,7 @@ main {
 
 .paragraphe {
     padding-top: 10px;
+    
 }
 
 .titre {
@@ -143,6 +162,10 @@ main {
 
 .p-biograpie {
     margin-bottom: 20px;
+    font-family: "dayrom";
+}
+.p{
+    font-family: "dayrom";
 }
 
 .icone {
@@ -150,6 +173,9 @@ main {
     justify-content: space-around;
     padding-top: 10px;
 
+}
+em{
+    color: red;
 }
 
 
@@ -195,6 +221,10 @@ footer {
 
 .amis {
     margin-left: 15px;
+}
+.tweet{
+     font-family: "dayrom";
+     margin-top: 10px;
 }
 
 .mes-amis ul {
